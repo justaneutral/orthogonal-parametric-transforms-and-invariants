@@ -17,6 +17,6 @@ if (HAVE_LIB_M)
     set(EXTRA_LIBS ${EXTRA_LIBS} m)                                                                                                      
 endif (HAVE_LIB_M)
 
-add_executable(fullproc FULLPROC.C DEK.C  GENBAF.C  GENBAF.htm  GENYAD.C  OPER.C  orig-c-src  papers  QTOSC.C  TFR.C)
+add_executable(fullproc FULLPROC.C DEK.C GENBAF.C GENYAD.C OPER.C QTOSC.C TFR.C)
 
 target_link_libraries(fullproc PUBLIC ${EXTRA_LIBS})
